@@ -1,8 +1,6 @@
 # 2020USPresidential-Polling-BSTAnalysis
 This project delves into the analysis of polling data for the 2020 U.S. presidential election, focusing on the Democratic and Republican primary elections. Utilizing principles of Object-Oriented Programming (OOP), this repository offers a Java-based solution to process and manage the polling data using a Binary Search Tree (BST) data structure.
 
-
-
 ## Table of Contents
 
 - [Overview](#overview)
@@ -36,6 +34,9 @@ The polling data is sourced from CSV files, each representing a different poll. 
 - Last name of the candidate.
 - Full name of the candidate.
 - Polling percentage.
+- 
+**Constructor:**
+- `Candidate(String lastName, String fullName, double pct)`: Constructs a new candidate object with the given last name, full name, and polling percentage.
 
 **Methods:**
 - `getLastName()`: Returns the candidate's last name.
