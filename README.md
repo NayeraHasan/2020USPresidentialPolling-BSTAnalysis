@@ -1,5 +1,7 @@
 # 2020USPresidential-Polling-BSTAnalysis
-This project focuses on analyzing polling data for the 2020 U.S. presidential election. Utilizing a binary search tree, the software processes polling data from CSV files to determine the support percentage for each Democratic candidate.
+This project delves into the analysis of polling data for the 2020 U.S. presidential election, focusing on the Democratic and Republican primary elections. Utilizing principles of Object-Oriented Programming (OOP), this repository offers a Java-based solution to process and manage the polling data using a Binary Search Tree (BST) data structure.
+
+
 
 ## Table of Contents
 
