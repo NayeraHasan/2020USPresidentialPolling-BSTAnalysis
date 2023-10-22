@@ -48,13 +48,17 @@ The polling data is sourced from CSV files, each representing a different poll. 
 
 ### LinkedBinarySearchTree Class
 
-**Functionality:** Implements a binary search tree for storing candidate data.
+**Functionality:** Implements a binary search tree for storing candidate data. It provides methods for tree operations like insertion and traversal. 
 
 **Attributes:**
 - Root element of the tree.
 - Left subtree.
 - Right subtree.
 - Count of elements in the tree.
+
+**Constructors:**
+- `LinkedBinarySearchTree()`: Constructs an empty `LinkedBinarySearchTree`.
+- `LinkedBinarySearchTree(E rootElement)`: Constructs a `LinkedBinarySearchTree` with the specified root element.
 
 **Methods:**
 - `insert(E element)`: Inserts an element into the tree.
@@ -64,6 +68,11 @@ The polling data is sourced from CSV files, each representing a different poll. 
 - `contains(E element)`: Checks if an element exists in the tree.
 - `toString()`: Returns a string representation of the tree.
 - `toStringPreOrder()`, `toStringInOrder()`, `toStringPostOrder()`: Return string representations of the tree in different orders.
+  
+**Traversal Helper Methods:**
+- `preOrderTraversalHelper(StringBuilder result)`: Performs a pre-order traversal of the binary search tree, appending each visited element to the given StringBuilder.
+- `postOrderTraversalHelper(StringBuilder result)`: Performs a post-order traversal of the binary search tree, appending each visited element to the given StringBuilder.
+- `inOrderTraversalHelper(StringBuilder result)`: Performs an in-order traversal of the binary search tree, appending each visited element to the given StringBuilder.
 
 ### Main Class
 
